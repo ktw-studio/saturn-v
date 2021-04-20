@@ -1,0 +1,11 @@
+.idea
+node_modules
+.env
+.cache
+docker/data
+dist
+.DS_Store
+k8s/values.yml
+k8s/docker-config.json
+coverage
+docker-compose.override.yml

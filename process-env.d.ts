@@ -4,6 +4,7 @@ export interface ProcessEnvironments {
     APP_PORT: number;
     LOG_LEVEL: 'error'|'debug' | 'log' | 'warn' | 'verbose' | 'info';
 
+    POSTGRES_ENDPOINT: string;
     POSTGRES_PORT: number;
     POSTGRES_DATABASE_NAME:string;
     POSTGRES_USER:string;

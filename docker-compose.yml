@@ -1,7 +1,7 @@
 version: "3.5"
 services:
   postgres:
-    image: postgres
+    image: postgres:13.2
     ports:
     - $POSTGRES_PORT:5432
     environment:
